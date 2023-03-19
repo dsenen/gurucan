@@ -1,0 +1,304 @@
+/*html & body*/
+
+html,
+body {
+  background-color: transparent;
+  padding-top: 30px;
+}
+
+button{
+  overflow: hidden;
+}
+
+/*header*/
+
+.header-title{
+  background-color: rgba(38,46,66,0.25);
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  padding: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+.r1{
+  font-size: 4em;
+  margin: 0px;
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.r2{
+  font-size: 10em;
+}
+
+/*BODY*/
+
+a {
+  color: #5d92ff;
+}
+
+a:hover {
+  color: #5de3ff;
+}
+
+/*Id's body*/
+
+#imgtable {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+main {
+  background-color: #262E42;
+}
+
+/*classes body*/
+
+.display-4 {
+  padding-top: 55px;
+  margin-left: 18%;
+  color: #99A98C;
+}
+
+.cabeza-2 {
+  color: #99A98C;
+  margin-left: 18%;
+  margin-right: 18%;
+  padding-top: 2%;
+}
+
+.imgtablecol {
+  background-color: #262E42;
+}
+
+.lead {
+  margin-top: 1%;
+  margin-right: 18%;
+  margin-left: 18%;
+  margin-bottom: 2%;
+  color: #E0DECE;
+  font-size: 1.2rem;
+}
+
+.main {
+  margin-top: 1%;
+  margin-right: 18%;
+  margin-left: 18%;
+  margin-bottom: 2%;
+  color: #E0DECE;
+}
+
+.modal-body {
+  overflow: hidden;
+  margin: auto; 
+}
+
+/*Google Maps*/
+
+#map {
+  height:40vh;
+  width: 100%;
+}
+
+/*iframe*/
+
+iframe {
+  border: 0;
+}
+
+/*images*/
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
+
+.imgtableimg {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 80%;
+}
+
+.piep{
+  text-align: right;
+  color: #99A98C;
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+/*media*/
+
+@media only screen and (max-width: 600px){
+  .cabeza-2{
+    margin-left: 5%;
+    font-size: 1.7rem; 
+  }  
+
+  .display-4{
+    padding-top: 55px;
+    margin-left: 5%;
+    color: #99A98C;
+    font-size: 2.0rem;
+  }  
+
+  .lead {
+  margin-top: 1%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  color: #E0DECE;
+  font-size: 1.2rem;
+  }
+
+  .header-title{
+    max-width: 100%;
+  }
+
+  /*Google Maps*/
+
+  #map {
+    height:50vh;
+    width: 100%;
+  }
+
+  .tiledBackground{
+    width: 100%;
+  }
+
+  .dropdown-item:hover {
+    background-color: rgba(224, 222, 206, 0.9) !important;
+    color: rgba(0, 0, 0, 1) !important;
+  }
+
+  .drop_down_transp {
+    background-color: rgba(224, 222, 206, 0.9) !important;
+    text-shadow: 0em 0em 0.15em white;
+    color: #262e42;
+  }
+
+  .navbar-light-ltcol {
+    background-color: rgba(224, 222, 206, 0.9) !important; 
+    color: rgba(38, 46, 66, 1) !important;
+  }
+
+  .navbar-light-ltcol:hover {
+    background-color: rgba(224, 222, 206, 0.9) !important;
+    color: rgba(0, 0, 0, 1) !important;
+  }
+}
+
+@media (max-width: 979px){
+  body {
+    background-color: transparent;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1100px){
+    .modal-lg{
+      width: 1050px; /* New width for large modal */
+    }
+}
+
+/*navbar*/
+
+header nav {
+    transition: all .2s ease-in-out;
+}
+
+a.drop_down_transp.dropdown-item:hover {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 1) !important;
+}
+
+.bg-dark{
+  background-color: #262E42 !important;
+  border-bottom: 1px solid #4473AF;
+  text-shadow: none !important;
+}
+
+.clearfix:after,
+li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dropdown-menu, .dropdown-item{
+ background-color:  #262E42;
+ color: #E0DECE;
+}
+
+.drop_down_transp {
+  background-color: transparent;
+  text-shadow: 0em 0em 0.15em white;
+  color: #262e42;
+}
+
+.navbar{
+  background-color: transparent;
+  text-shadow: 0em 0em 0.15em white;
+}
+
+.nav-link, .navbar-brand {
+  color: #262e42;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.navbar-light-ltcol {
+  color: rgba(38, 46, 66, 1) !important;
+}
+
+.navbar-light-ltcol:hover {
+  color: rgba(0, 0, 0, 1) !important;
+}
+
+/*Video*/
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+
+/*footer*/
+
+footer p {
+  text-align: left;
+  color: #7996c6;
+/*  color: #4473af;*/
+  background-color: #262E42;
+  margin-bottom: 0;
+}
